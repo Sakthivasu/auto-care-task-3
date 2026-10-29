@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A2540">
+  <title>Create Account | Stackly Auto Care</title>
+  <link rel="icon" href="img/logo (2).webp">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="auth-page">
+    <section class="auth-visual">
+      <a class="brand" href="index.html">
+        <img src="img/logo (2).webp" alt="Stackly Auto Care">
+      </a>
+      <div>
+        <span class="eyebrow">Join Stackly Auto Care</span>
+        <h2>Better care.<br><span style="color:#78a8ff">Every mile.</span></h2>
+        <p>Create your account experience and discover automotive maintenance, service bookings, and spare-parts essentials.</p>
+      </div>
+    </section>
+
+    <section class="auth-form-side">
+      <div class="auth-form">
+        <a href="index.html" class="back-home"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+        <h1>Create account</h1>
+        <p>Enter your details to get started.</p>
+
+        <div class="form-message" role="status" aria-live="polite"></div>
+
+        <form id="signup-form">
+          <div class="field">
+            <label for="signup-email">Email address</label>
+            <input id="signup-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          </div>
+
+          <div class="field">
+            <label for="signup-password">Password</label>
+            <input id="signup-password" name="password" type="password" placeholder="At least 8 characters" autocomplete="new-password" minlength="8" required>
+            <span class="password-hint">Use at least 8 characters.</span>
+          </div>
+
+          <div class="field">
+            <label for="confirm-password">Confirm password</label>
+            <input id="confirm-password" name="confirmPassword" type="password" placeholder="Re-enter your password" autocomplete="new-password" minlength="8" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block mt-24">
+            Create Account <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+          <div class="auth-divider">or sign up with</div>
+
+          <button type="button" class="btn google-btn" data-google-demo>
+            <i class="fa-brands fa-google"></i> Sign up with Google
+          </button>
+        </form>
+
+        <p class="auth-foot">Already have an account? <a href="login.html">Login</a></p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
