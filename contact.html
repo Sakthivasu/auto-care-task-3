@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A2540">
+  <title>Contact & Book an Appointment | Stackly Auto Care</title>
+  <link rel="icon" href="img/logo (2).webp">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script>
+</head>
+<body>
+  <div id="preloader"><div class="loader-content"><img class="loader-logo" src="img/logo (2).webp" alt="Stackly"><div class="loader-brand">STACKLY <span>AUTO CARE</span></div><div class="road"><span class="driving-car">🚘</span></div><div class="loader-progress"><span id="loader-bar"></span></div><div id="loader-number" class="loader-number">0%</div><div class="loader-caption">Preparing your experience...</div></div></div>
+  <header class="site-header"><div class="container navbar">
+    <a class="brand" href="index.html"><img src="img/logo (2).webp" alt="Stackly logo"><span class="brand-name">STACKLY <span>AUTO CARE</span></span></a>
+    <nav class="nav-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    <div class="nav-actions"><label class="search-wrap"><i class="fa-solid fa-magnifying-glass"></i><input id="global-search" type="search" placeholder="Search..." aria-label="Search"></label><a href="shop.html" class="cart-link" aria-label="Open cart"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">0</span></a><div class="auth-links"><a class="btn btn-outline" href="login.html">Login</a><a class="btn btn-primary" href="signup.html">Sign up</a></div><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button></div>
+  </div></header>
+
+  <main>
+    <section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> / Contact</div><span class="eyebrow">We are here to help</span><h1>Let's get your car<br>back on the road.</h1><p>Book a service, ask about spare parts, or tell us how we can help.</p></div></section>
+
+    <section class="section" id="appointment"><div class="container grid-2" style="align-items:start;gap:32px">
+      <div class="form-card reveal">
+        <span class="eyebrow">Send an enquiry</span><h2 style="font-size:2rem;margin:13px 0 23px">Book an appointment</h2>
+        <div class="form-message" role="status" aria-live="polite"></div>
+        <form id="contact-form">
+          <div class="form-grid">
+            <div class="field"><label for="contact-name">Full name *</label><input id="contact-name" name="name" autocomplete="name" required minlength="2" placeholder="Your name"></div>
+            <div class="field"><label for="contact-phone">Phone number *</label><input id="contact-phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9 +()-]{10,16}" required placeholder="Your phone number"></div>
+            <div class="field"><label for="contact-email">Email address *</label><input id="contact-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+            <div class="field"><label for="contact-vehicle">Vehicle model *</label><input id="contact-vehicle" name="vehicle" required placeholder="e.g. Honda City"></div>
+            <div class="field"><label for="contact-service">Service required *</label><select id="contact-service" name="service" required><option value="">Select a service</option><option>Routine Maintenance</option><option>Brake Service</option><option>Engine Diagnostics</option><option>AC Service</option><option>Spare Parts Enquiry</option><option>Other</option></select></div>
+            <div class="field"><label for="contact-date">Preferred date</label><input id="contact-date" name="date" type="date"></div>
+            <div class="field full"><label for="contact-message">How can we help? *</label><textarea id="contact-message" name="message" required minlength="10" placeholder="Describe your requirements..."></textarea></div>
+            <div class="field full"><label style="display:flex;gap:9px;align-items:flex-start;font-weight:500"><input type="checkbox" required style="width:auto;margin-top:5px"><span>I agree to have my enquiry details used to respond to this request.</span></label></div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mt-24">Submit Enquiry <i class="fa-solid fa-arrow-right"></i></button>
+          <p class="form-note mt-16">Demo form: details are validated in your browser but are not sent or stored by a server.</p>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <div class="section-head" style="text-align:left;margin-bottom:28px"><span class="eyebrow">Contact information</span><h2 style="font-size:2rem;margin-top:13px">Let's connect.</h2><p>Reach out with your vehicle details and preferred service.</p></div>
+        <div class="contact-info">
+          <div class="contact-item"><div class="icon-box"><i class="fa-solid fa-location-dot"></i></div><div><h3>Location</h3><p class="muted">Chennai, Tamil Nadu<br>PIN Code: 600008</p></div></div>
+          <div class="contact-item"><div class="icon-box"><i class="fa-solid fa-calendar-check"></i></div><div><h3>Appointments</h3><p class="muted">Submit the booking form with your preferred date and service.</p></div></div>
+          <div class="contact-item"><div class="icon-box"><i class="fa-solid fa-car"></i></div><div><h3>Vehicle information</h3><p class="muted">Sharing your vehicle model and the issue helps us understand your request.</p></div></div>
+        </div>
+        <div class="map-panel mt-24"><div><div class="icon-box"><i class="fa-solid fa-map-location-dot"></i></div><h3>Find Chennai</h3><p class="muted mt-16">Chennai, Tamil Nadu — 600008</p><a class="btn btn-dark mt-24" href="https://www.google.com/maps/search/?api=1&query=600008%2C+Chennai%2C+Tamil+Nadu" target="_blank" rel="noopener noreferrer">Open Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i></a><p class="form-note mt-16">This is a postal-area search, not a verified workshop pin.</p></div></div>
+      </div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-grid">
+    <div><a class="brand" href="index.html"><img src="img/logo (2).webp" alt="Stackly"><span class="brand-name">STACKLY <span>AUTO CARE</span></span></a><p class="footer-about">Reliable automotive services and spare parts.</p></div>
+    <div><h4>Explore</h4><ul class="footer-links"><li><a href="services.html">Services</a></li><li><a href="shop.html">Shop</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div><h4>Account</h4><ul class="footer-links"><li><a href="login.html">Login</a></li><li><a href="signup.html">Sign up</a></li></ul></div>
+    <div><h4>Location</h4><ul class="footer-links"><li>Chennai, Tamil Nadu</li><li>600008</li></ul></div>
+  </div><div class="footer-bottom"><span>© 2026 Stackly Auto Care.</span><span>Built for better journeys.</span></div></div></footer>
+
+  <div id="cart-overlay" class="drawer-overlay" aria-hidden="true"><aside class="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping cart"><div class="drawer-head"><h2 style="font-size:1.5rem">Your Cart</h2><button class="icon-btn" data-cart-close aria-label="Close cart"><i class="fa-solid fa-xmark"></i></button></div><div id="cart-items" class="cart-items"></div><div class="cart-summary"><div class="total-row"><span>Total</span><span id="cart-total">₹0</span></div><button id="checkout-btn" class="btn btn-primary btn-block">Continue to Checkout</button><p class="form-note mt-16">Demo checkout only.</p></div></aside></div>
+</body>
+</html>

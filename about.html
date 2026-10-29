@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0A2540">
+
+    <title>About Us | Stackly Auto Care</title>
+
+    <link rel="icon" href="img/logo (2).webp">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader-content">
+
+            <img
+                class="loader-logo"
+                src="img/logo (2).webp"
+                alt="Stackly Auto Care"
+            >
+
+            <div class="loader-brand">
+                STACKLY <span>AUTO CARE</span>
+            </div>
+
+            <div class="road">
+                <span class="driving-car">🚘</span>
+            </div>
+
+            <div class="loader-progress">
+                <span id="loader-bar"></span>
+            </div>
+
+            <div id="loader-number" class="loader-number">0%</div>
+
+            <div class="loader-caption">
+                Preparing your experience...
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="container navbar">
+
+            <a class="brand" href="index.html">
+
+                <img
+                    src="img/logo (2).webp"
+                    alt="Stackly logo"
+                >
+
+                <span class="brand-name">
+                    STACKLY
+                    <span>AUTO CARE</span>
+                </span>
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+            <nav class="nav-links">
+
+                <a href="index.html">Home</a>
+
+                <a href="services.html">Services</a>
+
+                <a href="shop.html">Shop</a>
+
+                <a href="about.html" class="active">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+
+            <!-- HEADER ACTIONS -->
+            <div class="nav-actions">
+
+                <label class="search-wrap">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        id="global-search"
+                        type="search"
+                        placeholder="Search..."
+                        aria-label="Search"
+                    >
+
+                </label>
+
+
+                <a
+                    href="shop.html"
+                    class="cart-link"
+                    aria-label="Open cart"
+                >
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span class="cart-count">0</span>
+
+                </a>
+
+
+                <div class="auth-links">
+
+                    <a class="btn btn-outline" href="login.html">
+                        Login
+                    </a>
+
+                    <a class="btn btn-primary" href="signup.html">
+                        Sign up
+                    </a>
+
+                </div>
+
+
+                <button
+                    class="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                >
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+
+        <!-- ABOUT HERO -->
+        <section class="page-hero">
+
+            <div class="container">
+
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / About
+                </div>
+
+                <span class="eyebrow">
+                    WHO WE ARE
+                </span>
+
+                <h1>
+                    Built around trust.
+                    <br>
+                    Driven by care.
+                </h1>
+
+                <p>
+                    Stackly Auto Care brings together customer-focused
+                    service, practical automotive expertise, and a
+                    commitment to quality.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- OUR STORY -->
+        <section class="section">
+
+            <div
+                class="container grid-2"
+                style="align-items:center; gap:45px;"
+            >
+
+
+                <div class="reveal">
+
+                    <span class="eyebrow">
+                        OUR STORY
+                    </span>
+
+                    <h2 class="mt-16">
+                        Helping every journey run
+                        <span class="text-blue">smoother.</span>
+                    </h2>
+
+                    <p class="muted mt-24">
+                        We created Stackly Auto Care around a
+                        straightforward idea: vehicle servicing should
+                        be clear, dependable, and convenient. Our
+                        platform brings maintenance services and
+                        spare-parts discovery together in one place.
+                    </p>
+
+                    <p class="muted mt-16">
+                        From routine inspections to repair guidance,
+                        our goal is to help drivers make informed
+                        decisions and understand the care their
+                        vehicles need.
+                    </p>
+
+
+                    <ul class="check-list">
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Clear service recommendations
+                                and communication
+                            </span>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Attention to vehicle safety
+                                and maintenance quality
+                            </span>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Customer-first support from
+                                enquiry to service
+                            </span>
+                        </li>
+
+                    </ul>
+
+
+                    <a href="services.html" class="btn btn-primary">
+                        Explore Our Services
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+
+                <!-- LOCAL IMAGE 1 -->
+                <div class="reveal">
+
+                    <img
+                        class="about-image"
+                        src="img/peter-broomfield-m3m-lnR90uM-unsplash.jpg"
+                        alt="Automotive workshop and vehicle maintenance"
+                        loading="lazy"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- OUR VALUES -->
+        <section class="section section-soft">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <span class="eyebrow">
+                        WHAT GUIDES US
+                    </span>
+
+                    <h2>
+                        Our workshop
+                        <span class="text-blue">values.</span>
+                    </h2>
+
+                    <p>
+                        Our service approach is built on practical
+                        standards that support drivers and their vehicles.
+                    </p>
+
+                </div>
+
+
+                <div class="grid-3">
+
+
+                    <!-- VALUE 1 -->
+                    <article class="card reveal">
+
+                        <div class="icon-box">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+
+                        <h3>Safety first</h3>
+
+                        <p>
+                            We prioritise vehicle safety checks,
+                            transparent findings, and appropriate
+                            maintenance recommendations.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- VALUE 2 -->
+                    <article class="card reveal">
+
+                        <div class="icon-box">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+
+                        <h3>Honest communication</h3>
+
+                        <p>
+                            We aim to explain service options,
+                            estimated costs, and repair needs
+                            in language customers understand.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- VALUE 3 -->
+                    <article class="card reveal">
+
+                        <div class="icon-box">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+
+                        <h3>Quality workmanship</h3>
+
+                        <p>
+                            We value systematic inspections,
+                            careful work, and parts selected
+                            for the vehicle's requirements.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- OUR COMMITMENT -->
+        <section class="section">
+
+            <div
+                class="container grid-2"
+                style="align-items:center; gap:45px;"
+            >
+
+
+                <!-- LOCAL IMAGE 2 -->
+                <div class="reveal">
+
+                    <img
+                        class="about-image"
+                        src="img/declan-sun-uTvueDwJHvo-unsplash.jpg"
+                        alt="Automotive care and vehicle service"
+                        loading="lazy"
+                    >
+
+                </div>
+
+
+
+                <div class="reveal">
+
+                    <span class="eyebrow">
+                        OUR COMMITMENT
+                    </span>
+
+                    <h2 class="mt-16">
+                        Expert care with a
+                        <span class="text-blue">human touch.</span>
+                    </h2>
+
+                    <p class="muted mt-24">
+                        Our service model is designed around
+                        automotive care, appropriate diagnostic
+                        tools, and clear customer communication.
+                    </p>
+
+
+                    <ul class="check-list">
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Maintenance and diagnostic support
+                            </span>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Spare-parts discovery and
+                                fitment guidance
+                            </span>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>
+                                Convenient appointment enquiries
+                            </span>
+                        </li>
+
+                    </ul>
+
+
+                    <p class="form-note">
+                        Service availability and vehicle compatibility
+                        should be confirmed before booking.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CALL TO ACTION -->
+        <section class="section">
+
+            <div class="container">
+
+                <div class="cta-panel reveal">
+
+                    <div>
+
+                        <h2>
+                            Let's take care of your car.
+                        </h2>
+
+                        <p>
+                            Have a question about your vehicle or
+                            an upcoming service? Our contact page
+                            is the place to start.
+                        </p>
+
+                    </div>
+
+
+                    <a href="contact.html" class="btn btn-white">
+                        Get in touch
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+
+                <!-- BRAND -->
+                <div>
+
+                    <a class="brand" href="index.html">
+
+                        <img
+                            src="img/logo (2).webp"
+                            alt="Stackly Auto Care"
+                        >
+
+                        <span class="brand-name">
+                            STACKLY
+                            <span>AUTO CARE</span>
+                        </span>
+
+                    </a>
+
+                    <p class="footer-about">
+                        Reliable automotive servicing and parts
+                        for better journeys.
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXPLORE -->
+                <div>
+
+                    <h4>Explore</h4>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html">Shop</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <!-- ACCOUNT -->
+                <div>
+
+                    <h4>Account</h4>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="signup.html">Sign up</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <!-- LOCATION -->
+                <div>
+
+                    <h4>Visit us</h4>
+
+                    <ul class="footer-links">
+
+                        <li>Chennai, Tamil Nadu</li>
+
+                        <li>600008</li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © 2026 Stackly Auto Care.
+                </span>
+
+                <span>
+                    Built for better journeys.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- CART DRAWER -->
+    <div
+        id="cart-overlay"
+        class="drawer-overlay"
+        aria-hidden="true"
+    >
+
+        <aside
+            class="cart-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Shopping cart"
+        >
+
+            <div class="drawer-head">
+
+                <h2 style="font-size:1.5rem;">
+                    Your Cart
+                </h2>
+
+                <button
+                    class="icon-btn"
+                    data-cart-close
+                    aria-label="Close cart"
+                >
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+
+            <div
+                id="cart-items"
+                class="cart-items"
+            ></div>
+
+
+            <div class="cart-summary">
+
+                <div class="total-row">
+
+                    <span>Total</span>
+
+                    <span id="cart-total">₹0</span>
+
+                </div>
+
+
+                <button
+                    id="checkout-btn"
+                    class="btn btn-primary btn-block"
+                >
+                    Continue to Checkout
+                </button>
+
+
+                <p class="form-note mt-16">
+                    Demo checkout only.
+                </p>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+</body>
+</html>
